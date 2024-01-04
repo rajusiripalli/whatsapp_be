@@ -28,7 +28,7 @@ export const register = async (req, res, next) => {
       path: "/api/v1/auth/refreshtoken",
       maxAge: 30 * 24 * 60 * 60 * 1000, //30 days
     });
-    console.table({ access_token, refresh_token });
+    //console.table({ access_token, refresh_token });
     res.json({
       message: "register success.",
       user: {
