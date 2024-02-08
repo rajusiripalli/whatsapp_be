@@ -7,6 +7,8 @@ import {
 import { updateLatestMessage } from "../services/conversation.service.js";
 
 export const sendMessage = async (req, res, next) => {
+  console.log("req user send message -->", req);
+  console.log("req user send message user -->", req.user);
   try {
     const user_id = req.user.userId;
     const { message, convo_id, files } = req.body;
