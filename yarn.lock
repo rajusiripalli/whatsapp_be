@@ -38,10 +38,34 @@
   dependencies:
     sparse-bitfield "^3.0.3"
 
+"@socket.io/component-emitter@~3.1.0":
+  version "3.1.0"
+  resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/@socket.io/component-emitter/-/component-emitter-3.1.0.tgz#96116f2a912e0c02817345b3c10751069920d553"
+  integrity sha1-lhFvKpEuDAKBc0WzwQdRBpkg1VM=
+
+"@types/cookie@^0.4.1":
+  version "0.4.1"
+  resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/@types/cookie/-/cookie-0.4.1.tgz#bfd02c1f2224567676c1545199f87c3a861d878d"
+  integrity sha1-v9AsHyIkVnZ2wVRRmfh8OoYdh40=
+
+"@types/cors@^2.8.12":
+  version "2.8.17"
+  resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/@types/cors/-/cors-2.8.17.tgz#5d718a5e494a8166f569d986794e49c48b216b2b"
+  integrity sha1-XXGKXklKgWb1admGeU5JxIshays=
+  dependencies:
+    "@types/node" "*"
+
 "@types/node@*":
   version "20.10.5"
   resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/@types/node/-/node-20.10.5.tgz"
   integrity sha1-R61GC1FAlrftY6Ha4m+tCRTtOrI=
+  dependencies:
+    undici-types "~5.26.4"
+
+"@types/node@>=10.0.0":
+  version "20.11.24"
+  resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/@types/node/-/node-20.11.24.tgz#cc207511104694e84e9fb17f9a0c4c42d4517792"
+  integrity sha1-zCB1ERBGlOhOn7F/mgxMQtRRd5I=
   dependencies:
     undici-types "~5.26.4"
 
@@ -68,7 +92,7 @@ abbrev@1:
   resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/abbrev/-/abbrev-1.1.1.tgz"
   integrity sha1-+PLIh60Qv2f2NPAFtph/7TF5qsg=
 
-accepts@~1.3.5, accepts@~1.3.8:
+accepts@~1.3.4, accepts@~1.3.5, accepts@~1.3.8:
   version "1.3.8"
   resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/accepts/-/accepts-1.3.8.tgz"
   integrity sha1-C/C+EltnAUrcsLCSHmLbe//hay4=
@@ -123,6 +147,11 @@ balanced-match@^1.0.0:
   version "1.0.2"
   resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/balanced-match/-/balanced-match-1.0.2.tgz"
   integrity sha1-6D46fj8wCzTLnYf2FfoMvzV2kO4=
+
+base64id@2.0.0, base64id@~2.0.0:
+  version "2.0.0"
+  resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/base64id/-/base64id-2.0.0.tgz#2770ac6bc47d312af97a8bf9a634342e0cd25cb6"
+  integrity sha1-J3Csa8R9MSr5eov5pjQ0LgzSXLY=
 
 basic-auth@~2.0.1:
   version "2.0.1"
@@ -344,7 +373,12 @@ cookie@0.5.0:
   resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/cookie/-/cookie-0.5.0.tgz"
   integrity sha1-0fXXGt7GVYxY84mYfDZqpH6ZT4s=
 
-cors@^2.8.5:
+cookie@~0.4.1:
+  version "0.4.2"
+  resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/cookie/-/cookie-0.4.2.tgz#0e41f24de5ecf317947c82fc789e06a884824432"
+  integrity sha1-DkHyTeXs8xeUfIL8eJ4GqISCRDI=
+
+cors@^2.8.5, cors@~2.8.5:
   version "2.8.5"
   resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/cors/-/cors-2.8.5.tgz"
   integrity sha1-6sEdpRWS3Ya58G9uesKTs9+HXSk=
@@ -375,7 +409,7 @@ debug@2.6.9:
   dependencies:
     ms "2.0.0"
 
-debug@4, debug@4.x, debug@^4:
+debug@4, debug@4.x, debug@^4, debug@~4.3.1, debug@~4.3.2, debug@~4.3.4:
   version "4.3.4"
   resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/debug/-/debug-4.3.4.tgz"
   integrity sha1-Exn2V5NX8jONMzfSzdSRS7XcyGU=
@@ -442,6 +476,27 @@ encodeurl@~1.0.2:
   version "1.0.2"
   resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/encodeurl/-/encodeurl-1.0.2.tgz"
   integrity sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k=
+
+engine.io-parser@~5.2.1:
+  version "5.2.2"
+  resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/engine.io-parser/-/engine.io-parser-5.2.2.tgz#37b48e2d23116919a3453738c5720455e64e1c49"
+  integrity sha1-N7SOLSMRaRmjRTc4xXIEVeZOHEk=
+
+engine.io@~6.5.2:
+  version "6.5.4"
+  resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/engine.io/-/engine.io-6.5.4.tgz#6822debf324e781add2254e912f8568508850cdc"
+  integrity sha1-aCLevzJOeBrdIlTpEvhWhQiFDNw=
+  dependencies:
+    "@types/cookie" "^0.4.1"
+    "@types/cors" "^2.8.12"
+    "@types/node" ">=10.0.0"
+    accepts "~1.3.4"
+    base64id "2.0.0"
+    cookie "~0.4.1"
+    cors "~2.8.5"
+    debug "~4.3.1"
+    engine.io-parser "~5.2.1"
+    ws "~8.11.0"
 
 escape-html@~1.0.3:
   version "1.0.3"
@@ -1307,6 +1362,35 @@ simple-update-notifier@^2.0.0:
   dependencies:
     semver "^7.5.3"
 
+socket.io-adapter@~2.5.2:
+  version "2.5.4"
+  resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/socket.io-adapter/-/socket.io-adapter-2.5.4.tgz#4fdb1358667f6d68f25343353bd99bd11ee41006"
+  integrity sha1-T9sTWGZ/bWjyU0M1O9mb0R7kEAY=
+  dependencies:
+    debug "~4.3.4"
+    ws "~8.11.0"
+
+socket.io-parser@~4.2.4:
+  version "4.2.4"
+  resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/socket.io-parser/-/socket.io-parser-4.2.4.tgz#c806966cf7270601e47469ddeec30fbdfda44c83"
+  integrity sha1-yAaWbPcnBgHkdGnd7sMPvf2kTIM=
+  dependencies:
+    "@socket.io/component-emitter" "~3.1.0"
+    debug "~4.3.1"
+
+socket.io@^4.7.4:
+  version "4.7.4"
+  resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/socket.io/-/socket.io-4.7.4.tgz#2401a2d7101e4bdc64da80b140d5d8b6a8c7738b"
+  integrity sha1-JAGi1xAeS9xk2oCxQNXYtqjHc4s=
+  dependencies:
+    accepts "~1.3.4"
+    base64id "~2.0.0"
+    cors "~2.8.5"
+    debug "~4.3.2"
+    engine.io "~6.5.2"
+    socket.io-adapter "~2.5.2"
+    socket.io-parser "~4.2.4"
+
 sparse-bitfield@^3.0.3:
   version "3.0.3"
   resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/sparse-bitfield/-/sparse-bitfield-3.0.3.tgz"
@@ -1530,6 +1614,11 @@ wrappy@1:
   version "1.0.2"
   resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/wrappy/-/wrappy-1.0.2.tgz#b5243d8f3ec1aa35f1364605bc0d1036e30ab69f"
   integrity sha1-tSQ9jz7BqjXxNkYFvA0QNuMKtp8=
+
+ws@~8.11.0:
+  version "8.11.0"
+  resolved "https://jbhunt.pkgs.visualstudio.com/_packaging/jbh-npm-registry/npm/registry/ws/-/ws-8.11.0.tgz#6a0d36b8edfd9f96d8b25683db2f8d7de6e8e143"
+  integrity sha1-ag02uO39n5bYslaD2y+Nfebo4UM=
 
 yallist@^4.0.0:
   version "4.0.0"
