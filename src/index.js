@@ -2,6 +2,7 @@ import dotenv from "dotenv";
 import { Server } from "socket.io";
 import app from "./app.js";
 import logger from "./configs/logger.config.js";
+import SocketServer from "./SocketServer.js";
 import mongoose from "mongoose";
 
 //dotEnv Config
@@ -47,6 +48,7 @@ const io = new Server(server, {
 });
 io.on("connection", (socket) => {
   logger.info("socket is connected successfully.");
+  SocketServer(socket, io);
 });
 
 //handle server errors
